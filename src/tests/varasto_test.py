@@ -73,4 +73,5 @@ class TestVarasto(unittest.TestCase):
         self.assertAlmostEqual(otettu_maara, 5)
 
     def test_varasto_merkkijono_palautuu_oikein(self):
+        # pikku kyselyndeerus
         self.assertEqual(str(self.varasto), "saldo = 0, vielä tilaa 10")
